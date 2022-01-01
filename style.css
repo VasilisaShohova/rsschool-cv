@@ -1,4 +1,21 @@
+/*Header*/
+.navigationBar{
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 60px 20px 60px;
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  background-color: #ccc;
+}
 
+
+
+
+
+
+/* Footer */
 .footer {
     display: flex;
     margin: 0 auto;
