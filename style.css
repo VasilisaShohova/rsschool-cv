@@ -78,7 +78,17 @@
   font-weight: 600;
 }
 
-
+.aboutMe {
+  padding: 0;
+  margin-bottom: 54px;
+}
+.aboutMe p {
+  margin: 0 60px 0 60px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: white;
+}
 /* Footer */
 .footer {
     display: flex;
