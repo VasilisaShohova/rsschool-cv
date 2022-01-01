@@ -1,8 +1,17 @@
-body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 60px 20px 60px;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #423a48;
+}
+.footerIcon {
+  justify-self: end;
+  height: 40px;
+}
+.cvYear {
+  justify-self: center;
+}
