@@ -56,8 +56,8 @@
 .contactsList {
   list-style: none;
   margin: 0;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 0;
 }
 .contactItem {
@@ -93,5 +93,5 @@
 }
 .footerRss{
   justify-self: end;
-    height: 40px;
+    height: px;
 }
