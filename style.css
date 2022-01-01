@@ -91,3 +91,7 @@
 .cvYear {
   justify-self: center;
 }
+.footerRss{
+  justify-self: end;
+    height: 40px;
+}
