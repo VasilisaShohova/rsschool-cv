@@ -1,8 +1,127 @@
-body {
-  background-color: lightblue;
+/*Page*/
+
+.page {
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 350;
+  color: white;
+  background-color: rgb(122 200 141);
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+/*Header*/
+.navigationBar {
+  display: flex;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 20px 60px 20px 60px;
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  background-color: #f2c1009e;
+}
+.navigationItem {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.navigationItem :hover {
+  float: left;
+  background-color: #ddd;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.navigationItem :active {
+  float: left;
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Main Content*/
+.pHeading {
+  font-size: 35px;
+  font-style: italic;
+  text-align: center;
+}
+.list {
+  list-style-type: none;
+}
+.mainTitle {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+.sectionTtitle {
+  background-color: #55a57f;
+}
+.pContent {
+  font-size: 18px;
+}
+.image {
+  float: right;
+  margin: 0 0 5px 5px;
+}
+.code {
+  background-color: #eee;
+  border: 1px solid rgb(37, 36, 36);
+  display: block;
+  padding: 20px;
+  background-color: rgb(150 150 150);
+}
+a:link {
+  color: blue;
+  font-size: 18px;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(20, 19, 19);
+  font-size: 18px;
+}
+/* Footer */
+.footer {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 60px 20px 60px;
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #423a48;
+}
+.footerIcon {
+  justify-self: end;
+  height: 40px;
+  color: white;
+}
+.cvYear {
+  justify-self: center;
+}
+.footerRss {
+  justify-self: end;
+  height: px;
 }
