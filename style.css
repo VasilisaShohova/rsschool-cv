@@ -1,4 +1,5 @@
 /*Page*/
+/*
 .page {
   height: 100%;
   margin: 0;
@@ -9,6 +10,7 @@
   font-weight: 350;
   color: rgb(36, 35, 35);
 }
+*/
 /*Header*/
 .navigationBar{
   display: flex;
@@ -30,45 +32,13 @@
   line-height: 25px;
   border-radius: 4px;
 }
-/*Sections*/
-.page-title {
-    margin: 120px 60px 100px 40px;
+.pHeading {
+font-size: 35px;
+font-style: italic;
+text-align: center;
 }
-.leftPart {
-  width: 100%;
-  color: white;
-  background-color: #242a35ba;
-}
-.sectionTitle {
-    position: relative;
-    margin: 0;
-    margin-bottom: 36px;
-    padding-left: 60px;
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 600;
-    background-color: #ccc
-  
-}
-.contact {
-  padding: 52px 0px 52px 0px;
-  background-color: #242a35ba;
-}
-.contactsList {
-  list-style: none;
-  margin: 0;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 0;
-}
-.contactItem {
-  margin-bottom: 25px;
-}
-.contactItemChild {
-  margin-bottom: 0;
-}
-.contact__item a {
-  display: block;
+.list {
+list-style-type: none;
 }
 .mainTitle  {
   margin: 0;
@@ -76,17 +46,30 @@
   font-size: 50px;
   line-height: 50px;
   font-weight: 600;
+  text-align: center;
+}
+.pContent {
+font-size: 18px;
+}
+.image {
+  float: right; 
+  margin: 0 0 5px 5px;
+}
+.code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+a:link {
+  color: blue;
+  font-size: 18px;
 }
 
-.aboutMe {
-  padding: 0;
-  margin-bottom: 54px;
-}
-.aboutMe p {
-  margin: 0 60px 0 60px;
-  padding: 0;
-  font-size: 16px;
-  line-height: 24px;
+/* visited link */
+a:visited {
+  color: grey;
+  font-size: 18px;
 }
 /* Footer */
 .footer {
