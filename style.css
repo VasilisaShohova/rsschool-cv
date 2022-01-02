@@ -1,5 +1,5 @@
 /*Page*/
-/*
+
 .page {
   height: 100%;
   margin: 0;
@@ -8,13 +8,16 @@
   font-size: 16px;
   line-height: 25px;
   font-weight: 350;
-  color: rgb(36, 35, 35);
+  color: white;
+  background-color: rgb(122 200 141);
 }
-*/
+
 /*Header*/
-.navigationBar{
+.navigationBar {
   display: flex;
-  margin: 0 auto;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
   padding: 20px 60px 20px 60px;
   height: 3rem;
   justify-content: space-between;
@@ -32,15 +35,39 @@
   line-height: 25px;
   border-radius: 4px;
 }
+.navigationItem :hover {
+  float: left;
+  background-color: #ddd;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.navigationItem :active {
+  float: left;
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Main Content*/
 .pHeading {
-font-size: 35px;
-font-style: italic;
-text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  text-align: center;
 }
 .list {
-list-style-type: none;
+  list-style-type: none;
 }
-.mainTitle  {
+.mainTitle {
   margin: 0;
   padding: 0;
   font-size: 50px;
@@ -48,18 +75,22 @@ list-style-type: none;
   font-weight: 600;
   text-align: center;
 }
+.sectionTtitle {
+  background-color: #55a57f;
+}
 .pContent {
-font-size: 18px;
+  font-size: 18px;
 }
 .image {
-  float: right; 
+  float: right;
   margin: 0 0 5px 5px;
 }
 .code {
   background-color: #eee;
-  border: 1px solid #999;
+  border: 1px solid rgb(37, 36, 36);
   display: block;
   padding: 20px;
+  background-color: rgb(150 150 150);
 }
 a:link {
   color: blue;
@@ -68,29 +99,29 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: grey;
+  color: rgb(20, 19, 19);
   font-size: 18px;
 }
 /* Footer */
 .footer {
-    display: flex;
-    margin: 0 auto;
-    padding: 20px 60px 20px 60px;
-    height: 3rem;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    background-color: #423a48;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 60px 20px 60px;
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #423a48;
 }
 .footerIcon {
   justify-self: end;
   height: 40px;
-  color:white;
+  color: white;
 }
 .cvYear {
   justify-self: center;
 }
-.footerRss{
+.footerRss {
   justify-self: end;
-    height: px;
+  height: px;
 }
